@@ -20,7 +20,7 @@ Bu proje, Elasticsearch teknolojisi ile tanışmak amacıyla geliştirilmiş bas
 
 1. Bu projeyi klonlayın:
    ```bash
-   git clone https://github.com/yourusername/elasticsearch-crud-app.git
+   git clone https://github.com/bahriyeliiix/ElasticsearchApp.git
    cd elasticsearch-crud-app
 2. Gerekli paketleri yükleyin:
    dotnet restore

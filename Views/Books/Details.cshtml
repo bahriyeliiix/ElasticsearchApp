@@ -1,0 +1,15 @@
+﻿@model Book
+@{
+    ViewData["Title"] = "Book Details";
+}
+
+<h2>Book Details</h2>
+
+<div>
+    <h4>@Model.Title</h4>
+    <p><strong>Author:</strong> @Model.Author</p>
+    <p><strong>Published Date:</strong> @Model.PublishedDate.ToShortDateString()</p>
+    <p><strong>Content:</strong> @Model.Content</p>
+</div>
+
+<a asp-action="Index" class="btn btn-secondary">Back to List</a>
